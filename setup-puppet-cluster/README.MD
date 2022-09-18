@@ -44,7 +44,7 @@ puppet cert sign --all
 ![](https://i.imgur.com/BmyGJz1.png)</br>
 ![](https://i.imgur.com/mwSsy73.png)
 
-7. Connection Testing
+7. Connection Testing </br>
 Goto Puppet Master ---------------------------------------------</br>
 mkdir -p /etc/puppet/code/environments/production/manifests/
 vi /etc/puppet/code/environments/production/manifests/site.pp</br>
