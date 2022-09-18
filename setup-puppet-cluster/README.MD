@@ -46,7 +46,7 @@ puppet cert sign --all
 
 7. Connection Testing </br>
 Goto Puppet Master ---------------------------------------------</br>
-mkdir -p /etc/puppet/code/environments/production/manifests/
+mkdir -p /etc/puppet/code/environments/production/manifests/ </br>
 vi /etc/puppet/code/environments/production/manifests/site.pp</br>
 file {'/tmp/it\_works.txt':</br>
 `   `ensure   => present,</br>
