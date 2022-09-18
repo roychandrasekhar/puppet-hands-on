@@ -51,7 +51,7 @@ vi /etc/puppet/code/environments/production/manifests/site.pp</br>
 file {'/tmp/it\_works.txt':</br>
 `   `ensure   => present,</br>
 `   `mode     => '0644',</br>
-`   `content  => "It works on ${ipaddress\_eth01}!\n" </br>
+`   `content  => "It works on !\n" </br>
 }
 
     systemctl restart puppet-master.service
