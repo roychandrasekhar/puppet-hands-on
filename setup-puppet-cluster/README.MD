@@ -41,8 +41,8 @@ systemctl restart puppet.service
 6. Certificate signing steps
 puppet cert list
 puppet cert sign --all
-![](https://i.imgur.com/gg8Ke9G.png)
-![](https://i.imgur.com/zCz3ygG.png)
+![](https://i.imgur.com/BmyGJz1.png)</br>
+![](https://i.imgur.com/mwSsy73.png)
 
 7. Connection Testing
 Goto Puppet Master ---------------------------------------------</br>
