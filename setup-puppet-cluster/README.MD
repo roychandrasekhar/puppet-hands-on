@@ -13,7 +13,7 @@ Install Puppet cluster environment in Virtual Box
         - ufw allow 8140/tcp
 
 3. Add Puppet Master IP in hosts file on each machine as below</br>
-192.168.56.200 puppet
+192.168.56.200 puppet</br>
 ![](https://i.imgur.com/IIib4Qr.png)</br>
 ![](https://i.imgur.com/Ut38wvR.png)
 
