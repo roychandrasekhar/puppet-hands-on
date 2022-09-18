@@ -60,6 +60,6 @@ file {'/tmp/it\_works.txt':</br>
 puppet agent --test</br>
 cat /tmp/it\_works.txt
 
-   ![](https://i.imgur.com/8uFsDDT.png)
+   ![](https://i.imgur.com/2c0vsW0.png)
 
 
