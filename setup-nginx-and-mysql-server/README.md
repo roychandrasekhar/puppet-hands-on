@@ -1,14 +1,13 @@
 **Install Nginx and MySql Server using Puppet**
 
 Install / Setup Puppet cluster
-
-URL
+[Setup Puppet cluster in Ubuntu](https://github.com/roychandrasekhar/puppet-hands-on/tree/main/setup-puppet-cluster)
 
 -----
 
-<u>In Puppet Master</u>
+<u><b>In Puppet Master node</b></u>
 
-In path : /etc/puppet/code/environments/production/
+In path : /etc/puppet/code/environments/production/ </br>
 Create folder as below shown below
 ```
 ├─ manifests/
@@ -19,7 +18,7 @@ Create folder as below shown below
              └─ init.pp
 ```
 
-Create file  ----------
+Create file  ---------- </br>
 vi /etc/puppet/code/environments/production/modules/nginxandmysql/manifests/init.pp
 ```
 class nginxandmysql{
@@ -31,7 +30,7 @@ class nginxandmysql{
 ```
 ![](https://i.imgur.com/DD9IiWg.png)
 
-Create file  ----------
+Create file  ---------- </br>
 vi /etc/puppet/code/environments/production/manifests/site.pp
 ```
 node default {
@@ -42,11 +41,13 @@ node default {
 
 ----
 
-In Slave </br>
+Now in Slave node </br>
 puppet agent --test</br>
 ![](https://i.imgur.com/gfHRDwN.png)
 
 Check the mysql and nginx service</br>
 ![](https://i.imgur.com/A0DZBad.png)</br>
+
+Check in browser also
 ![](https://i.imgur.com/d1WZvtF.png)
 
