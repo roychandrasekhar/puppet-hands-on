@@ -41,7 +41,7 @@ node default {
 
 ----
 
-<u><b>Now in Slave node </b></u></br>
+<u><b>Now in Slave node run this command</b></u></br>
 <font color="red"># puppet agent --test</font></br>
 ![](https://i.imgur.com/gfHRDwN.png)
 
