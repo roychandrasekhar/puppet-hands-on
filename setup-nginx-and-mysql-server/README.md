@@ -48,6 +48,6 @@ node default {
 Check the mysql and nginx service</br>
 ![](https://i.imgur.com/A0DZBad.png)</br>
 
-Check in browser also
+Check in browser also </br>
 ![](https://i.imgur.com/d1WZvtF.png)
 
