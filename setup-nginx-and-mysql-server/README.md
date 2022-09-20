@@ -42,7 +42,7 @@ node default {
 ----
 
 <u><b>Now in Slave node </b></u></br>
-puppet agent --test</br>
+<span style="color:blue;font-weight:bold"># puppet agent --test</span></br>
 ![](https://i.imgur.com/gfHRDwN.png)
 
 Check the mysql and nginx service</br>
