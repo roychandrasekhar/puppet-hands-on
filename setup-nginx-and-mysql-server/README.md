@@ -1,6 +1,6 @@
 **Install Nginx and MySql Server using Puppet**
 
-Install / Setup Puppet cluster
+Install / Setup Puppet cluster</br>
 [Setup Puppet cluster in Ubuntu](https://github.com/roychandrasekhar/puppet-hands-on/tree/main/setup-puppet-cluster)
 
 -----
@@ -41,7 +41,7 @@ node default {
 
 ----
 
-Now in Slave node </br>
+<u><b>Now in Slave node </b></u></br>
 puppet agent --test</br>
 ![](https://i.imgur.com/gfHRDwN.png)
 
