@@ -42,11 +42,11 @@ node default {
 
 ----
 
-In Slave
-puppet agent --test
+In Slave </br>
+puppet agent --test</br>
 ![](https://i.imgur.com/gfHRDwN.png)
 
-Check the mysql and nginx service
-![](https://i.imgur.com/A0DZBad.png)
+Check the mysql and nginx service</br>
+![](https://i.imgur.com/A0DZBad.png)</br>
 ![](https://i.imgur.com/d1WZvtF.png)
 
