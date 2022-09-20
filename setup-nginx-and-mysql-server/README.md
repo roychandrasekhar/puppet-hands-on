@@ -1,6 +1,5 @@
 **Install Nginx and MySql Server using Puppet**
 
-
 Install / Setup Puppet cluster
 
 URL
@@ -11,17 +10,17 @@ URL
 
 In path : /etc/puppet/code/environments/production/
 Create folder as below shown below
+```
 ├─ manifests/
 │   └─ site.pp
 └─ modules/
-` ` └─ nginxandmysql/
-` ` ` ` ` `└─ manifests/
-` ` ` ` ` ` ` ` ` `└─ init.pp
+    └─ nginxandmysql/
+         └─ manifests/
+             └─ init.pp
+```
 
 Create file  ----------
-
 vi /etc/puppet/code/environments/production/modules/nginxandmysql/manifests/init.pp
-
 ```
 class nginxandmysql{
     $packages = ['nginx','mysql-server']
